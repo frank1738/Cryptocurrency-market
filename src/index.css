@@ -132,7 +132,6 @@ body {
 
 .width {
   width: 15%;
-  /* border: 1px solid lightgrey; */
 }
 
 .img {
@@ -191,7 +190,7 @@ body {
 }
 
 .rank {
-  margin: 0.5 0;
+  margin: 0.5rem 0;
 }
 
 .rank-btn {
@@ -300,7 +299,6 @@ td {
   padding: 0.5rem 1rem;
   width: 40%;
   font-family: var(--body-font);
-  font-size: var(--normal-font-size);
   font-size: var(--normal-font-size);
   outline: none;
   border-radius: 0.5rem;
