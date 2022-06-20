@@ -1,6 +1,6 @@
 # Cryptocurrency Market
 
-This a web app that fetches data from CoinGecko API and displays the global cryptocurrency market cap and the changes in the last 24 hours. Users can also get more information about a specific cryptocurrency.
+This is a web app that fetches data from CoinGecko API and displays the global cryptocurrency market cap and the changes in the last 24 hours. Users can also get more information about a specific cryptocurrency.
 
 ## Built With
 
