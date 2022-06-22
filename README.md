@@ -68,8 +68,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-The design has been inspired by:
-[Behance](<https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)>)
+- The design has been inspired by
+  [Behance](<https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)>)
 
 - Thanks to the[CoinGecko API ](https://www.coingecko.com/)
 
