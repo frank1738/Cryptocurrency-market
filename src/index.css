@@ -53,7 +53,9 @@
 
 body {
   font-family: var(--body-font);
+  background-image: url('./Assets/crypto.jpg');
   background-color: var(--body-color);
+  background-blend-mode: multiply;
 }
 
 .nav-bar {
@@ -120,10 +122,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--bg-color);
+  background-color: rgba(0 0 0/40%);
   box-shadow: 0 0 3px var(--bg-color);
   padding: 0.5rem 1rem;
-  color: var(--text-bright-color);
+  color: var(--text-color);
   border-radius: 0.2rem;
   font-weight: var(--font-semi-bold);
   font-size: var(--normal-font-size);
@@ -183,7 +185,7 @@ body {
   padding: 0.7rem 1rem;
   display: flex;
   flex-direction: column;
-  background-color: var(--bg-color);
+  background-color: rgba(0 0 0/40%);
   box-shadow: 0 0 12px #18191b;
   border-radius: 0.5rem;
   color: var(--text-bright-color);
@@ -199,12 +201,13 @@ body {
   background-color: var(--first-color-alt);
   border-radius: 0.5rem;
   padding: 0.2rem;
-  color: var(--text-bright-color);
+  color: var(--text-color);
 }
 
 .detail-name,
 .table {
   text-align: center;
+  color: var(--text-color);
 }
 
 .detail-name {
@@ -214,6 +217,7 @@ body {
 .info {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  color: var(--text-color);
 }
 
 .detail-price {
@@ -244,7 +248,7 @@ th {
 }
 
 th {
-  background-color: #333;
+  background-color: rgba(0 0 0/50%);
 }
 
 .stats {
@@ -265,6 +269,7 @@ td {
   margin: 0.6rem 0;
   padding-bottom: 0.5rem;
   font-size: var(--normal-font-size);
+  color: var(--text-color);
 }
 
 .data {
@@ -282,10 +287,12 @@ td {
 
 .about-header {
   margin: var(--mb-0-25) 0;
+  color: var(--text-color);
 }
 
 .about-description {
   font-size: var(--small-font-size);
+  color: var(--text-color);
 }
 
 .search-container {
