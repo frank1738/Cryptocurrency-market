@@ -1,9 +1,9 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { fetchCategory } from '../Redux/Category/categories';
-import { useSelector } from 'react-redux/es/exports';
+import { useSelector } from 'react-redux';
 import { useEffect } from 'react';
-import { useDispatch } from 'react-redux/es/exports';
+import { useDispatch } from 'react-redux';
 import DOMPurify from 'dompurify';
 
 const Details = () => {

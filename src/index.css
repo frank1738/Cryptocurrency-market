@@ -323,9 +323,36 @@ td {
   color: var(--text-color);
 }
 
+.mic {
+  width: 5%;
+  font-size: 1.5rem;
+  color: var(--first-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 2rem;
+}
+
+.nav-icon {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav-icon:hover {
+  color: var(--text-color);
+}
+
 @media screen and (max-width: 720px) {
   .hide-mobile {
     display: none;
+  }
+
+  .mic {
+    width: 13%;
+  }
+
+  .micro {
+    margin-right: 0.5rem;
   }
 
   .container {

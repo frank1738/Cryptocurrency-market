@@ -1,8 +1,8 @@
 import React from 'react';
-import { useDispatch } from 'react-redux/es/exports';
+import { useDispatch } from 'react-redux';
 import { useEffect } from 'react';
 import { fetchCurrencies } from '../Redux/Currencies/currencies';
-import { useSelector } from 'react-redux/es/exports';
+import { useSelector } from 'react-redux';
 import { NavLink } from 'react-router-dom';
 import Coin from './Coin';
 import Search from './Search';
