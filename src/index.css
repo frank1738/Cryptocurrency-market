@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+::-webkit-scrollbar {
+  width: 0.6rem;
+  background-color: var(--scroll-bar-color);
+  border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: grey;
+  border-radius: 0.5rem;
+}
+
+:root {
+  --hue-color: 250;
+  --first-color: hsl(var(--hue-color), 69%, 61%);
+  --first-color-second: hsl(var(--hue-color), 69%, 61%);
+  --first-color-alt: hsl(var(--hue-color), 57%, 53%);
+  --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
+  --title-color: hsl(var(--hue-color), 8%, 95%);
+  --text-color: hsl(var(--hue-color), 8%, 75%);
+  --input-color: hsl(var(--hue-color), 29%, 16%);
+  --body-color: hsl(var(--hue-color), 28%, 12%);
+  --text-bright-color: #fff;
+  --bg-color: #26272b;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+  --big-font-size: 2rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1.125rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;
+  --smaller-font-size: 0.75rem;
+  --body-font: poppins, sans-serif;
+  --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
+  --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
+  --mb-0-25: 0.25rem;
+  --mb-0-5: 0.5rem;
+  --mb-0-75: 0.75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+  --mb-3: 3rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--body-font);
+  background-color: var(--body-color);
+}
+
+.nav-bar {
+  display: flex;
+  box-shadow: 0 0 7px var(--bg-color);
+  padding: 0.6rem 0;
+}
+
+.my-coin {
+  position: relative;
+}
+
+.next-btn {
+  font-size: 1.5rem;
+}
+
+.next-btn:hover {
+  transition: 0.5s;
+  color: var(--first-color);
+}
+
+.arrow,
+.icon,
+.purple {
+  color: var(--first-color);
+}
+
+.arrow {
+  color: var(--text-color);
+  font-size: 2.5rem;
+  justify-self: flex-start;
+  margin-left: 1.5rem;
+  transition: 0.3s;
+}
+
+.arrow:hover {
+  color: var(--first-color);
+}
+
+.icon {
+  font-size: var(--big-font-size);
+  margin-right: 2rem;
+}
+
+.nav-header {
+  color: var(--text-color);
+}
+
+.logo {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bg-color);
+  box-shadow: 0 0 3px var(--bg-color);
+  padding: 0.5rem 1rem;
+  color: var(--text-bright-color);
+  border-radius: 0.2rem;
+  font-weight: var(--font-semi-bold);
+  font-size: var(--normal-font-size);
+  margin-top: 1rem;
+}
+
+.width {
+  width: 15%;
+}
+
+.img {
+  width: 20%;
+  margin-right: 0.5rem;
+}
+
+.symbol {
+  display: flex;
+  align-items: center;
+}
+
+.coins {
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+.coins:hover {
+  transform: scale(1.02);
+  transition: 0.5s ease-in-out;
+}
+
+.first {
+  width: 5%;
+}
+
+.title {
+  margin-left: 1.3rem;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.coin-icon {
+  font-size: 2.5rem;
+  margin-left: 1.5rem;
+  color: var(--text-color);
+}
+
+.coin-name {
+  font-size: var(--small-font-size);
+  margin-top: var(--mb-0-75);
+}
+
+.detail-container .content {
+  max-width: 740px;
+  margin: 1rem auto;
+  padding: 0.7rem 1rem;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-color);
+  box-shadow: 0 0 12px #18191b;
+  border-radius: 0.5rem;
+  color: var(--text-bright-color);
+}
+
+.rank {
+  margin: 0.5rem 0;
+}
+
+.rank-btn {
+  border: 1px solid var(--first-color);
+  box-shadow: 0 0 8px var(--first-color-alt);
+  background-color: var(--first-color-alt);
+  border-radius: 0.5rem;
+  padding: 0.2rem;
+  color: var(--text-bright-color);
+}
+
+.detail-name,
+.table {
+  text-align: center;
+}
+
+.detail-name {
+  font-size: var(--big-font-size);
+}
+
+.info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.detail-price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--normal-font-size);
+}
+
+.detail-img,
+.det-name {
+  margin-right: var(--mb-1);
+}
+
+.detail-heading {
+  display: flex;
+  align-items: center;
+  margin-top: var(--mb-1);
+}
+
+.table {
+  margin: 0.5rem 0;
+}
+
+td,
+th {
+  padding: 0.5rem;
+}
+
+th {
+  background-color: #333;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  width: 100%;
+}
+
+td {
+  font-size: var(--small-font-size);
+}
+
+.stats .row {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px var(--text-color);
+  margin: 0.6rem 0;
+  padding-bottom: 0.5rem;
+  font-size: var(--normal-font-size);
+}
+
+.data {
+  font-size: var(--small-font-size);
+}
+
+.first-row {
+  color: var(--text-color);
+}
+
+.about a {
+  color: var(--first-color-lighter);
+  text-decoration: none;
+}
+
+.about-header {
+  margin: var(--mb-0-25) 0;
+}
+
+.about-description {
+  font-size: var(--small-font-size);
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: var(--mb-0-25);
+  margin-top: -0.5rem;
+}
+
+.input {
+  padding: 0.5rem 1rem;
+  width: 40%;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  outline: none;
+  border-radius: 0.5rem;
+  border: 1px solid var(--body-color);
+  background-color: var(--text-color);
+  color: var(--body-color);
+}
+
+::placeholder {
+  color: var(--body-color);
+}
+
+.warn-icon {
+  font-size: 2.5rem;
+}
+
+.warning {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: var(--mb-1);
+  color: var(--text-color);
+}
+
+.mic {
+  width: 5%;
+  font-size: 1.5rem;
+  color: var(--first-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 2rem;
+}
+
+.nav-icon {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav-icon:hover {
+  color: var(--text-color);
+}
+
+@media screen and (max-width: 720px) {
+  .hide-mobile {
+    display: none;
+  }
+
+  .mic {
+    width: 13%;
+  }
+
+  .micro {
+    margin-right: 0.5rem;
+  }
+
+  .container {
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .input {
+    width: 70%;
+  }
+
+  .width {
+    width: 25%;
+  }
+
+  .first {
+    width: 10%;
+  }
+
+  .heading {
+    justify-content: space-evenly;
+    padding: 0;
+    padding: 0.5rem 0;
+  }
+
+  .title {
+    margin-left: 0.5rem;
+  }
+
+  .img {
+    width: 25%;
+  }
+
+  .coins {
+    padding: 0.5rem 0;
+  }
+
+  .logo {
+    width: 80%;
+  }
+
+  .detail-container content {
+    max-width: 100%;
+    margin: 0.5rem;
+    padding: 0 0.5rem;
+  }
+
+  .stats {
+    grid-template-columns: 1fr;
+  }
+
+  td,
+  th {
+    padding: 3px;
+  }
+}
