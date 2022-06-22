@@ -2,6 +2,10 @@
 
 This is a web app that fetches data from CoinGecko API and displays the global cryptocurrency market cap and the changes in the last 24 hours. Users can also get more information about a specific cryptocurrency.
 
+## Live Demo
+
+- [cryptocurrency market](https://teal-kitsune-38cd3e.netlify.app/)
+
 ## Built With
 
 - React
@@ -71,7 +75,7 @@ Give a ⭐️ if you like this project!
 - The design has been inspired by
   [Behance](<https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)>)
 
-- Thanks to the[CoinGecko API ](https://www.coingecko.com/)
+- Thanks to the [CoinGecko API ](https://www.coingecko.com/)
 
 ## 📝 License
 
