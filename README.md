@@ -11,6 +11,9 @@ This is a web app that fetches data from CoinGecko API and displays the global c
 
 [cryptocurrency market](https://teal-kitsune-38cd3e.netlify.app/)
 
+## Video Demo
+
+[video](https://www.loom.com/share/86b405d8046146e99276030872926166)
 
 
 
